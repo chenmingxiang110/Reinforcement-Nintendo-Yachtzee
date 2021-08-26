@@ -133,7 +133,7 @@ def get_inputs(valid_rows, _round):
 
 def print_table(_table):
     row_names = [
-        "Aces", "Twos", "Threes", "Fours", "Fives", "Sixes",
+        "Aces", "Deuces", "Threes", "Fours", "Fives", "Sixes",
         "Chance", "4 of a kind", "Full House", "Sm. Straight", "Lg. Straight", "Yachtzee"
     ]
     total_score, (score6, bonus) = get_total_score(_table)
